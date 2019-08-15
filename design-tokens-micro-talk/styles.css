@@ -1,0 +1,37 @@
+:root {
+    --header-type: American Typewriter, serif;
+    --body-type: Optima, sans-serif;
+
+    --main-brand-color: darkred;
+    --secondary-brand-color: pink;
+
+    --big-margin: 4rem;
+    --half-big-margin: 2rem;
+
+    --section-border: 2px solid var(--secondary-brand-color);
+}
+
+.main-header {
+    font-family: var(--header-type);
+    margin: var(--half-big-margin);
+    color: var(--main-brand-color);
+}
+
+.sub-header {
+    font-family: var(--header-type);
+    color: var(--main-brand-color);
+}
+
+.body-text {
+    font-family: var(--body-type);
+}
+
+.body {
+    margin: var(--big-margin);
+}
+
+.section {
+    margin: var(--half-big-margin);
+    min-height: 300px;
+    border: var(--section-border);
+}
